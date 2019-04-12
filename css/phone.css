@@ -1,0 +1,288 @@
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family:"微软雅黑";
+	color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+	/* display: -webkit-flex;
+	-webkit-flex-direction:column; */
+}
+a{
+	text-decoration:none;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border:0;
+	display: block;
+}
+
+/*header*/
+.head-nav{
+	width: 100%;
+	position: relative;
+}
+.nav-top{
+	width: 100%;
+	height: .48rem;
+	background-color: #000;
+	display: flex;
+	justify-content: space-between;
+}
+.nav-top-menu{
+	width: .48rem;
+	height: inherit;
+	position: relative;
+}
+.nav-top-menu span{
+	display: block;
+	width: .18rem;
+	height: .01rem;
+	background: #fff;
+	position: absolute;
+	left: 16px;
+	top: 24px;
+}
+.nav-top-menu span:first-child{
+	top: 17px;
+}
+.nav-top-menu span:last-child{
+	top: 31px;
+}
+.nav-top-logo span{
+	display: block;
+	width: 1.22rem;
+	height: .48rem;
+	background-image: url(../img/public.png);
+	background-position: -0.05rem .07rem;
+	background-size: 400px 400px!important;
+}
+.top-login{
+	width: .2rem;
+	height: .48rem;
+}
+.nav-top-login span{
+	display: block;
+	width: .2rem;
+	height: .48rem;
+	background-image: url(../img/public.png);
+	background-position: -1.65rem .08rem;
+	background-size: 400px 400px!important;
+	margin: 0 16px;
+}
+.nav-list{
+	display: none;
+	width: 100%;
+	height: 6.19rem;
+	padding: 0 .4rem;
+	background-color: #000;
+	position: absolute;
+	top: .48rem;
+	left: 0;
+	box-sizing: border-box;
+	z-index: 10;
+}
+.nav-list li{
+	display: block;
+	height: .44rem;
+	vertical-align: top;
+	border-bottom: 0.01px solid #f4f4f4;
+}
+.nav-list li a{
+	color: #fff;
+	height: .44rem;
+	line-height: .44rem;
+}
+.nav-list li:first-child{
+	margin-top: .37rem;
+}
+.login-content{
+	display: none;
+	width: 100%;
+	
+	box-sizing: border-box;
+	padding: .1rem .2rem;
+	background: #fff;
+	z-index: 9;
+	position: absolute;
+	top: .48rem;
+	left: 0;
+}
+.cart{
+	text-align: center;
+	padding: .3rem 0;
+	color: #999;
+}
+.login-list a{
+	color: #333;
+	display: block;
+	padding-left: .25rem;
+	height: .5rem;
+	line-height: .5rem;
+	box-sizing: border-box;
+	border-top: .001rem solid #f4f4f4;
+}	
+/*content*/
+.phones-nav{
+	width: 100%;
+	height: 1rem;
+	background-color: #1f1f26;
+	text-align: center;
+}
+.phones-nav a{
+	display: inline-block;
+    padding: 20px 24px 0;
+    font-family: PingFangSC-light;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1;
+    color: #fff;
+    vertical-align: top;
+}
+.phone-img{
+	width: .3rem;
+	height: .36rem;
+	margin: 0 auto;
+	display: block;
+}
+.phone-name{
+	margin-top: .08rem;
+	font-size: 12px;
+	color: #fff;
+}
+/*section*/
+.phone-banner{
+	width: 100%;
+}
+.banner-wrapper{
+	width: 100%;
+	border-bottom: 1px solid #dedede;
+	position: relative;
+}
+.banner-wrapper img{
+	width: 100%;
+	height: 5.2rem;
+}
+.banner-cont{
+	position: absolute;
+	top: .2rem;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.banner-cont img{
+	width: 65%;
+	height: 35%;
+	margin: 0 auto;
+}
+.banner-cont a{
+	color: #f4f4f4;
+	font-size: 14px;
+}
+.banner-cont a span{
+	color: #999;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-left: .05rem;
+	margin-top: .1rem;	
+}
+/*footer*/
+.foot{
+	width: 100%;
+	padding: .3rem .16rem;
+	box-sizing: border-box;
+	background-color: #f7f7f7;
+}
+.column{
+	width: 100%;
+}
+.column-lighter{
+	width: 100%;
+	height: .38rem;
+	line-height: .38rem;
+	position: relative;
+}
+.column-title{
+	font-weight: normal;
+	border-bottom: 1px solid #dedede;
+	font-size: 12px;
+}
+.column-show{
+	float: right;
+	color: #999;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-right: .08rem;
+}
+.column-list{
+	display: none;
+	width: 100%;
+	position: absolute;
+	top: .38rem;
+	left: 0;
+}
+.column-link{
+	width: 100%;
+    height: .12rem;
+    padding: 0 .15rem;
+    color: #555;
+    font-size: 12px;
+}
+.mobile{
+	width: 100%;
+	padding: .22rem 0;
+	font-size: 13px;
+	border-bottom: 1px solid #dedede;
+}
+.mobile p:last-child{
+	margin-top: .1rem;
+
+}
+.mobile-kf{
+	color: #999;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-left: .05rem;
+	margin-top: .1rem;
+}
+.law{
+	width: 100%;
+	padding-top: .17rem;
+	padding-bottom: .22rem;
+}
+.law-legal{
+	width: 100%;
+}
+.law-legal .banquan{
+	width: 1.06rem;
+	height: 0.2rem;
+	display: block;
+	background-image: url(../img/public.png);
+	background-position: 0 -6.4rem;
+	background-size: 400px 400px;
+}
+.law-legal a{
+	display: inline-block;
+	font-size: 12px;
+	color: #333;
+	width: auto;
+    margin-right: 8px;
+    padding-right: 8px;
+    margin-top: 8px;
+}
+.law-police{
+	font-size: 12px;
+	color: #999;
+	margin-top: .04rem;
+	line-height: 0.2rem;
+}
